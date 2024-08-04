@@ -6,3 +6,13 @@ document.addEventListener('scroll', () => {
         navbar.classList.remove('scrolled');
     }
 });
+
+
+function toggleNavbar() {
+    var menu = document.getElementById('navbarMenu');
+    if (menu.classList.contains('hidden')) {
+        menu.classList.remove('hidden');
+    } else {
+        menu.classList.add('hidden');
+    }
+}

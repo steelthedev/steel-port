@@ -17,3 +17,7 @@
 .text-extra-lg{
     font-size: 50px;
 }
+
+.navbar-transition {
+    transition: max-height 0.3s ease-out;
+}
