@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <title>Ayomiposi</title>
+</head>
+<body class="body">
+<!-- Navbar -->
+<!-- Navbar -->
+<nav class="navbar bg-transparent p-8 md:flex fixed top-0 left-0 right-0 z-10 transition-all duration-300">
+    <div class="flex justify-between">
+        <div class="navbar-logo text-main-text m-2 font-bold">
+            <h2 class="nav-logo text-lg">A Y O M I P O S I</h2>
+        </div>
+        <button class="md:hidden block text-main-text focus:outline-none" onclick="toggleNavbar()">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+        </button>
+    </div>
+  
+    <div id="navbarMenu" class="link-items justify-center m-auto hidden md:block navbar-transition">
+        <!-- links list -->
+        <ul class="md:flex">
+            <!-- Link Item -->
+            <a href="">
+                <li class="font-semibold text-main-text m-2">H O M E</li>
+            </a>
+            <!-- End link item -->
+
+            <!-- Link Item -->
+            <a href="">
+                <li class="font-semibold text-main-text m-2">A B O U T</li>
+            </a>
+            <!-- End link item -->
+
+            <!-- Link Item -->
+            <a href="">
+                <li class="font-semibold text-main-text m-2">C A T E G O R I E S</li>
+            </a>
+            <!-- End link item -->
+
+            <!-- Link Item -->
+            <a href="">
+                <li class="font-semibold text-main-text m-2">A U T H O R</li>
+            </a>
+            <!-- End link item -->
+        </ul>
+    </div>
+
+    <!-- Search bar -->
+    <div class="search-bar justify-end hidden md:block">
+        <div class="form-group">
+            <input type="text" placeholder="Search" name="search" class="p-2 rounded-lg">
+        </div>
+    </div>
+    <!-- end search bar -->
+</nav>
+
+
+
+
+<!-- categories -->
+
+<section class="justify-center p-40">
+    <div class="text-center">
+        <h3 class="font-bold text-main-text text-extra-lg mb-4">Categories</h3>
+    </div>
+
+    <div class="max-w-6xl mx-auto mb-3">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 p-10">
+
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden p-10  text-center h-72">
+               <div class="content mt-20">
+                <h2 class="font-bold text-2xl">RUST</h2>
+                <span class="mt-8 font-semibold text-md">Total 2 posts</span>
+               </div>
+            </div>
+
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden p-10  text-center h-72">
+                <div class="content mt-20">
+                 <h2 class="font-bold text-2xl">RUST</h2>
+                 <span class="mt-8 font-semibold text-md">Total 2 posts</span>
+                </div>
+             </div>
+
+             <div class="bg-white shadow-lg rounded-lg overflow-hidden p-10  text-center h-72">
+                <div class="content mt-20">
+                 <h2 class="font-bold text-2xl">RUST</h2>
+                 <span class="mt-8 font-semibold text-md">Total 2 posts</span>
+                </div>
+             </div>
+        
+         
+        </div>
+    </div>
+
+    <div class="text-center m-auto mb-5">
+        <a href="#" class="px-4 py-3 bg-red-500 text-primary shadow-sm rounded hover:bg-main-text">View all posts</a>
+    </div>
+    
+</section>
+
+<!-- categories -->
+
+<!-- footer -->
+ <footer class="justify-center">
+    <div class="md:flex justify-between m-auto  max-w-4xl text-main-text p-8">
+        <div>
+            <h6 class="font-semibold text-lg">©2024 theayomiposi. All rights reserved.</h6>
+        </div>
+        <div class="footer-links sm:mt-4">
+            <a href="#" class="footer-link text-lg">Privacy policy</a>
+        </div>
+    </div>
+ </footer>
+
+
+<!-- Js  -->
+<script src="./assets/js/main.js"></script>
+<!-- end js -->
+</body>
+</html>
